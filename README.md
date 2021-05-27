@@ -3,10 +3,15 @@
   become: true
   become_user: root
   tasks:
-  - name: install python
-    yum: name=python state=present
-  - name: start python
-    service: name=python state=started
-  - name: deploy war file
-       dest=/usr/share/python/webapps
+  - name: install docker
+   yum: name=docker state=present
+-name: start docker
+service:  name=docker state=started
+-name: Pull the image from docker hub
+get_url:
+ url=https://hub.docker.com/_/ubuntu
+  - name: run the docker image
+    command: docker run -itd -P deployimage:ubuntu
+  
+
    
