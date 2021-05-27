@@ -11,6 +11,8 @@ service:  name=docker state=started
     yum: name=git state=present
   - name: get the dockerfile from githib
     git: repo=https://github.com/darshanarn26/testmay.git dest=/tmp/gitrepo
+    - name: build dockerfile
+    command: chdir=/tmp/gitrepo docker build -t deployimage:ubuntu
 - name: Pull the image from docker hub
 get_url:
  url=https://hub.docker.com/_/ubuntu
