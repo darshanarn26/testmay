@@ -21,5 +21,8 @@ get_url:
    - name: port mapping for the image 
    command:  docker run --name c1 -d -p 8888:80 ubuntu 
   
+  
+  
+  
 
    
