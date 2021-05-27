@@ -71,6 +71,7 @@ pipeline{
 
  Public class TestCase1
 {
+@BeforeClass
 @Test
 public void setupmethod()
 {
