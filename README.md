@@ -5,9 +5,9 @@
   tasks:
   - name: install docker
    yum: name=docker state=present
--name: start docker
+- name: start docker
 service:  name=docker state=started
--name: Pull the image from docker hub
+- name: Pull the image from docker hub
 get_url:
  url=https://hub.docker.com/_/ubuntu
   - name: run the docker image
