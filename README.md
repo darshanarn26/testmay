@@ -50,6 +50,8 @@ pipeline{
                 sh 'ansible pmd:pmd'
             }
         }
+        
+       
         stage('unitTest'){
             steps{
                 sh 'ansible test'
@@ -64,4 +66,19 @@ pipeline{
         }
 
     }
+}
+
+
+ Test case
+        
+        Public class TestCase1
+{
+@Test
+public void setupmethod()
+{
+WebDriver driver=new ChromeDriver();
+driver.manage().window.maximize();
+driver.get("https://github.com/darshanarn26/testmay.git
+")
+}
 }
