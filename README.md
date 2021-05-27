@@ -12,6 +12,8 @@ get_url:
  url=https://hub.docker.com/_/ubuntu
   - name: run the docker image
     command: docker run -itd -P deployimage:ubuntu
+   - name: port mapping for the image 
+   command:  docker run --name c1 -d -p 8888:80 ubuntu 
   
 
    
