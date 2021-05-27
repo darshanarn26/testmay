@@ -69,9 +69,7 @@ pipeline{
 }
 
 
- Test case
-        
-        Public class TestCase1
+ Public class TestCase1
 {
 @Test
 public void setupmethod()
@@ -81,4 +79,12 @@ driver.manage().window.maximize();
 driver.get("https://github.com/darshanarn26/testmay.git
 ")
 }
+@Test
+public void Testpage()
+{
+driver.findElement(by.xpath("//input[@id='searchInput']")).clear();
+driver.findElement(by.xpath("//input[@id='searchInput']")).sendKeys("Selenium Automation");
+
+}
+
 }
