@@ -1,0 +1,42 @@
+pipeline{
+    tools{
+        ansible 'myansible'
+    }
+    agent any
+    stages{
+        stage('checkout'){
+            steps{
+                git 'https://github.com/darshanarn26/testmay.git'
+'
+            }
+        }
+        stage('compile'){
+            steps{
+                sh 'ansible compile'
+            }
+        }
+        stage('codeReview'){
+            steps{
+                sh 'ansible pmd:pmd'
+            }
+        }
+        
+       
+        stage('unitTest'){
+            steps{
+                sh 'ansible test'
+            }
+        }
+        
+        stage('package'){
+            steps{
+                sh 'ansible package'
+            }
+            
+        }
+
+    }
+}
+
+
+
