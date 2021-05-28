@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1622198204,,"wq!"
+|2,0,1622198269,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -28,20 +28,20 @@
 |3,1,36,0,1,0,1622056978,"S"
 
 # File marks:
-'0  42  0  ~/pipeline.txt
-|4,48,42,0,1622198204,"~/pipeline.txt"
-'1  11  0  ~/playbook2.yml
-|4,49,11,0,1622198020,"~/playbook2.yml"
-'2  4  1  ~/playbook2.yml
-|4,50,4,1,1622112794,"~/playbook2.yml"
+'0  20  0  ~/testcase.txt
+|4,48,20,0,1622198269,"~/testcase.txt"
+'1  42  0  ~/pipeline.txt
+|4,49,42,0,1622198204,"~/pipeline.txt"
+'2  11  0  ~/playbook2.yml
+|4,50,11,0,1622198020,"~/playbook2.yml"
 '3  4  1  ~/playbook2.yml
 |4,51,4,1,1622112794,"~/playbook2.yml"
 '4  4  1  ~/playbook2.yml
-|4,52,4,1,1622112760,"~/playbook2.yml"
+|4,52,4,1,1622112794,"~/playbook2.yml"
 '5  4  1  ~/playbook2.yml
 |4,53,4,1,1622112760,"~/playbook2.yml"
-'6  22  1  ~/playbook2.yml
-|4,54,22,1,1622112604,"~/playbook2.yml"
+'6  4  1  ~/playbook2.yml
+|4,54,4,1,1622112760,"~/playbook2.yml"
 '7  22  1  ~/playbook2.yml
 |4,55,22,1,1622112604,"~/playbook2.yml"
 '8  22  1  ~/playbook2.yml
@@ -50,14 +50,30 @@
 |4,57,22,1,1622112604,"~/playbook2.yml"
 
 # Jumplist (newest first):
+-'  20  0  ~/testcase.txt
+|4,39,20,0,1622198269,"~/testcase.txt"
+-'  1  0  ~/testcase.txt
+|4,39,1,0,1622198242,"~/testcase.txt"
 -'  42  0  ~/pipeline.txt
 |4,39,42,0,1622198204,"~/pipeline.txt"
+-'  42  0  ~/pipeline.txt
+|4,39,42,0,1622198204,"~/pipeline.txt"
+-'  1  0  ~/pipeline.txt
+|4,39,1,0,1622198150,"~/pipeline.txt"
 -'  1  0  ~/pipeline.txt
 |4,39,1,0,1622198150,"~/pipeline.txt"
 -'  11  0  ~/playbook2.yml
 |4,39,11,0,1622198020,"~/playbook2.yml"
 -'  11  0  ~/playbook2.yml
 |4,39,11,0,1622198020,"~/playbook2.yml"
+-'  11  0  ~/playbook2.yml
+|4,39,11,0,1622198020,"~/playbook2.yml"
+-'  11  0  ~/playbook2.yml
+|4,39,11,0,1622198020,"~/playbook2.yml"
+-'  4  1  ~/playbook2.yml
+|4,39,4,1,1622198001,"~/playbook2.yml"
+-'  4  1  ~/playbook2.yml
+|4,39,4,1,1622198001,"~/playbook2.yml"
 -'  4  1  ~/playbook2.yml
 |4,39,4,1,1622198001,"~/playbook2.yml"
 -'  4  1  ~/playbook2.yml
@@ -66,6 +82,14 @@
 |4,39,4,1,1622112794,"~/playbook2.yml"
 -'  4  1  ~/playbook2.yml
 |4,39,4,1,1622112794,"~/playbook2.yml"
+-'  4  1  ~/playbook2.yml
+|4,39,4,1,1622112794,"~/playbook2.yml"
+-'  4  1  ~/playbook2.yml
+|4,39,4,1,1622112794,"~/playbook2.yml"
+-'  4  1  ~/playbook2.yml
+|4,39,4,1,1622112760,"~/playbook2.yml"
+-'  4  1  ~/playbook2.yml
+|4,39,4,1,1622112760,"~/playbook2.yml"
 -'  4  1  ~/playbook2.yml
 |4,39,4,1,1622112760,"~/playbook2.yml"
 -'  4  1  ~/playbook2.yml
@@ -82,6 +106,22 @@
 |4,39,22,1,1622112675,"~/playbook2.yml"
 -'  22  1  ~/playbook2.yml
 |4,39,22,1,1622112675,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112675,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112675,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112675,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112675,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112675,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112675,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112604,"~/playbook2.yml"
+-'  22  1  ~/playbook2.yml
+|4,39,22,1,1622112604,"~/playbook2.yml"
 -'  22  1  ~/playbook2.yml
 |4,39,22,1,1622112604,"~/playbook2.yml"
 -'  22  1  ~/playbook2.yml
@@ -102,6 +142,26 @@
 |4,39,30,0,1622112563,"~/playbook2.yml"
 -'  30  0  ~/playbook2.yml
 |4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112563,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112490,"~/playbook2.yml"
+-'  30  0  ~/playbook2.yml
+|4,39,30,0,1622112490,"~/playbook2.yml"
 -'  30  0  ~/playbook2.yml
 |4,39,30,0,1622112490,"~/playbook2.yml"
 -'  30  0  ~/playbook2.yml
@@ -126,86 +186,26 @@
 |4,39,1,0,1622112472,"~/playbook2.yml"
 -'  1  0  ~/playbook2.yml
 |4,39,1,0,1622112472,"~/playbook2.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
--'  16  0  ~/playbook1.yml
-|4,39,16,0,1622112459,"~/playbook1.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
+-'  1  0  ~/playbook2.yml
+|4,39,1,0,1622112472,"~/playbook2.yml"
 -'  16  0  ~/playbook1.yml
 |4,39,16,0,1622112459,"~/playbook1.yml"
 -'  16  0  ~/playbook1.yml
@@ -252,6 +252,13 @@
 |4,39,16,0,1622112459,"~/playbook1.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/testcase.txt
+	*	1622198267	0
+	"	20	0
+	^	20	1
+	.	20	0
+	+	20	0
 
 > ~/pipeline.txt
 	*	1622198201	0
