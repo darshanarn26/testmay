@@ -17,14 +17,15 @@ service:  name=docker state=started
 
 get_url:
 
- url=https://hub.docker.com/_/ubuntu
+ url=https://hub.docker.com/_/emitter/server
   
 - name: run the docker image
    
- command: docker run -itd -P deployimage:ubuntu
+ command: docker run -itd -P deployimage:emitter/server
  
   - name: port mapping for the image 
    
-command:  docker run --name c1 -d -p 8888:80 ubuntu 
+command:  docker run --name c1 -d -p 8080:80 ubuntu 
   
+ 
  
