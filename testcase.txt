@@ -6,8 +6,8 @@ public void setupmethod()
 {
 WebDriver driver=new ChromeDriver();
 driver.manage().window.maximize();
-driver.get("https://github.com/darshanarn26/testmay.git
-")
+driver.get("https://github.com/darshanarn26/testmay.git")
+
 }
 @Test
 public void Testpage()
